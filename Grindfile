@@ -1,0 +1,7 @@
+{
+	"paths": [
+		"site.coffee"
+	],
+	"out": "site.js",
+	"before": "sass site.scss:site.css"
+}

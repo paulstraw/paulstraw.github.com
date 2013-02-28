@@ -1,0 +1,9 @@
+name: Paul Straw
+description: Paul Straw writes code and talks about things on his personal weblog.
+url: http://paulstraw.com
+
+markdown: redcarpet
+pygments: true
+paginate: 50
+auto: true
+exclude: site.scss, mixins.scss, site.coffee, Grindfile

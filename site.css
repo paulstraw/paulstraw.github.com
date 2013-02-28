@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+body, input, select, textarea, button {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+a {
+  -webkit-tap-highlight-color: #FF5E99; }
+
+::-moz-selection {
+  background: #FF5E99;
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: #FF5E99;
+  color: #fff;
+  text-shadow: none; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+strong {
+  font-weight: 600; }
+
+em {
+  font-style: italic; }
+
+/* Clearfix: */
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .group {
+  height: 1%; }
+
+*:first-child + html .group {
+  min-height: 1px; }
+
+/* End clearfix */
+/* End reset + base */
+body {
+  background: #3a4249 url("img/bg.png") fixed;
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600; }
+
+a {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px solid #7e8386;
+  text-decoration: none;
+  transition: border-color 120ms linear;
+  -webkit-transition: border-color 120ms linear;
+  -moz-transition: border-color 120ms linear;
+  -o-transition: border-color 120ms linear;
+  -ms-transition: border-color 120ms linear;
+  position: relative; }
+  a:hover {
+    border-bottom-color: transparent; }
+  a:active {
+    top: 1px; }
+
+section#main {
+  width: 660px;
+  padding-top: 80px;
+  margin: 0 auto; }
+  section#main aside {
+    position: fixed;
+    width: 140px;
+    text-align: right; }
+    section#main aside h6 {
+      font-size: 24px; }
+      section#main aside h6 a {
+        border: 0; }
+    section#main aside nav ul {
+      list-style: none;
+      margin-top: 21px; }
+      section#main aside nav ul.meta {
+        margin-top: 24px; }
+  section#main div#articles {
+    margin-left: 180px;
+    width: 480px;
+    margin-top: 3px; }
+    section#main div#articles article {
+      margin-bottom: 84px; }
+      section#main div#articles article h1 {
+        font-size: 17px; }
+      section#main div#articles article div.content p {
+        margin-top: 21px; }
+      section#main div#articles article div.content pre {
+        margin: 15px 0 -6px;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 6px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -o-border-radius: 2px; }
