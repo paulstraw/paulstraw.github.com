@@ -8,7 +8,7 @@
 	<div class="content">
 		{{ post.content | markdownify }}
 		{% if show_date %}
-			<p class="date">{{ post.date | date: "%B" }}  {{page.date | date: "%e"}}{{ post.date | date: "%e" | ordinalize }}, {{ post.date | date: "%Y" }}</p>
+			<p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
 		{% endif %}
 	</div>
 </article>
