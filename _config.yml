@@ -4,7 +4,6 @@ url: http://paulstraw.com
 
 markdown: redcarpet
 pygments: true
-paginate: 50
 auto: true
 exclude: site.scss, mixins.scss, railscasts.scss, site.coffee, Grindfile
 permalink: pretty
