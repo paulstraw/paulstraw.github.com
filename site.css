@@ -322,6 +322,19 @@ section#main {
       margin-bottom: 84px; }
       section#main div#articles article h1 {
         font-size: 17px; }
+        section#main div#articles article h1 a.permalink {
+          border: 0;
+          color: #626f7a;
+          transition: color 120ms linear;
+          -webkit-transition: color 120ms linear;
+          -moz-transition: color 120ms linear;
+          -o-transition: color 120ms linear;
+          -ms-transition: color 120ms linear;
+          vertical-align: -2px;
+          display: inline-block;
+          margin-left: 9px; }
+          section#main div#articles article h1 a.permalink:hover {
+            color: #fff; }
       section#main div#articles article div.content p {
         margin-top: 21px; }
       section#main div#articles article div.content pre {
