@@ -7,3 +7,4 @@ pygments: true
 paginate: 50
 auto: true
 exclude: site.scss, mixins.scss, site.coffee, Grindfile
+permalink: pretty
