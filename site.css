@@ -333,7 +333,8 @@ section#main {
           -webkit-transition: color 120ms linear;
           -moz-transition: color 120ms linear;
           -o-transition: color 120ms linear;
-          -ms-transition: color 120ms linear; }
+          -ms-transition: color 120ms linear;
+          line-height: 18px; }
           section#main div#articles article h1 a.permalink:hover {
             color: #fff; }
       section#main div#articles article div.content p {
@@ -358,3 +359,7 @@ section#main {
         -moz-border-radius: 2px;
         -o-border-radius: 2px;
         padding: 2px 3px; }
+      section#main div#articles article div.content p.date {
+        font-size: 12px;
+        font-style: italic;
+        color: #7E8386; }

@@ -61,7 +61,7 @@ section#main {
 				font-size: 17px;
 
 				a.permalink {
-					border: 0; color: #626f7a; vertical-align: -2px; display: inline-block; margin-left: 9px; @include transition(color 120ms linear);
+					border: 0; color: #626f7a; vertical-align: -2px; display: inline-block; margin-left: 9px; @include transition(color 120ms linear); line-height: 18px;
 
 					&:hover { color: #fff; }
 				}
@@ -75,6 +75,8 @@ section#main {
 					code { padding: 0; background: transparent; }
 				}
 				code { font-family: "Inconsolata", monospace; background: rgba(0, 0, 0, 0.3); @include border-radius(2px); padding: 2px 3px; }
+
+				p.date { font-size: 12px; font-style: italic; color: #7E8386; }
 			}
 		}
 	}

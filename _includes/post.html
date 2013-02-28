@@ -7,5 +7,8 @@
 
 	<div class="content">
 		{{ post.content | markdownify }}
+		{% if show_date %}
+			<p class="date">{{ post.date | paulstraw_date }}</p>
+		{% endif %}
 	</div>
 </article>
