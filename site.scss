@@ -61,8 +61,12 @@ section#main {
 
 			div.content {
 				p { margin-top: 21px; }
-				pre { margin: 15px 0 -6px; background: rgba(0, 0, 0, 0.3); padding: 6px; @include border-radius(2px); }
-				code { font-family: "Inconsolata", monospace; }
+				pre {
+					background: rgba(0, 0, 0, 0.3); margin: 15px 0 -6px; padding: 6px; @include border-radius(2px); white-space: pre-wrap;
+
+					code { padding: 0; background: transparent; }
+				}
+				code { font-family: "Inconsolata", monospace; background: rgba(0, 0, 0, 0.3); @include border-radius(2px); padding: 2px 3px; }
 			}
 		}
 	}
