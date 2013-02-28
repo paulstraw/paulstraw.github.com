@@ -24,10 +24,10 @@ em { font-style: italic; }
 body { background: #3A4249 url("img/bg.png") fixed; color: #fff; font-size: 14px; line-height: 21px; }
 h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 a {
-	color: #fff; font-weight: 600; border-bottom: 1px solid #7E8386; text-decoration: none; @include transition(border-color 120ms linear); position: relative;
+	color: #fff; font-weight: 600; border-bottom: 1px solid #7E8386; text-decoration: none; position: relative; @include transition(border-color 120ms linear);
 
 	&:hover { border-bottom-color: transparent; }
-	&:active { top: 1px; }
+	&:active { top: 1px; color: #ddd; }
 }
 
 section#main {
@@ -61,7 +61,7 @@ section#main {
 				font-size: 17px;
 
 				a.permalink {
-					border: 0; color: #626f7a; @include transition(color 120ms linear); vertical-align: -2px; display: inline-block; margin-left: 9px;
+					border: 0; color: #626f7a; vertical-align: -2px; display: inline-block; margin-left: 9px; @include transition(color 120ms linear);
 
 					&:hover { color: #fff; }
 				}

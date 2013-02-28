@@ -286,16 +286,17 @@ a {
   font-weight: 600;
   border-bottom: 1px solid #7e8386;
   text-decoration: none;
+  position: relative;
   transition: border-color 120ms linear;
   -webkit-transition: border-color 120ms linear;
   -moz-transition: border-color 120ms linear;
   -o-transition: border-color 120ms linear;
-  -ms-transition: border-color 120ms linear;
-  position: relative; }
+  -ms-transition: border-color 120ms linear; }
   a:hover {
     border-bottom-color: transparent; }
   a:active {
-    top: 1px; }
+    top: 1px;
+    color: #ddd; }
 
 section#main {
   width: 660px;
@@ -325,14 +326,14 @@ section#main {
         section#main div#articles article h1 a.permalink {
           border: 0;
           color: #626f7a;
+          vertical-align: -2px;
+          display: inline-block;
+          margin-left: 9px;
           transition: color 120ms linear;
           -webkit-transition: color 120ms linear;
           -moz-transition: color 120ms linear;
           -o-transition: color 120ms linear;
-          -ms-transition: color 120ms linear;
-          vertical-align: -2px;
-          display: inline-block;
-          margin-left: 9px; }
+          -ms-transition: color 120ms linear; }
           section#main div#articles article h1 a.permalink:hover {
             color: #fff; }
       section#main div#articles article div.content p {
