@@ -24,7 +24,7 @@ em { font-style: italic; }
 body { background: #3A4249 url("img/bg.png") fixed; color: #fff; font-size: 14px; line-height: 21px; }
 h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 a {
-	color: #fff; font-weight: 600; border-bottom: 1px solid #7E8386; text-decoration: none; position: relative; @include transition(border-color 120ms linear);
+	color: #fff; font-weight: 600; border-bottom: 1px dotted #8b9194; text-decoration: none; position: relative; @include transition(border-color 120ms linear);
 
 	&:hover { border-bottom-color: transparent; }
 	&:active { top: 1px; color: #ddd; }
@@ -76,7 +76,7 @@ section#main {
 				}
 				code { font-family: "Inconsolata", monospace; background: rgba(0, 0, 0, 0.3); @include border-radius(2px); padding: 2px 3px; }
 
-				p.date { font-size: 12px; font-style: italic; color: #7E8386; }
+				p.date { font-size: 12px; font-style: italic; color: #8b9194; }
 			}
 		}
 	}
