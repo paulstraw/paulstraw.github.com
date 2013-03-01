@@ -3,6 +3,11 @@ description: Paul Straw writes code and talks about things on his personal weblo
 url: http://paulstraw.com
 
 markdown: redcarpet
+redcarpet:
+  extensions:
+    - smart
+    - autolink
+    - hard_wrap
 pygments: true
 auto: true
 exclude: site.scss, mixins.scss, railscasts.scss, site.coffee, Grindfile
