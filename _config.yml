@@ -9,6 +9,10 @@ redcarpet:
     - autolink
     - hard_wrap
 pygments: true
-auto: true
-exclude: site.scss, mixins.scss, railscasts.scss, site.coffee, Grindfile
+exclude:
+    - site.scss
+    - mixins.scss
+    - railscasts.scss
+    - site.coffee
+    - Grindfile
 permalink: pretty

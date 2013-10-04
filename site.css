@@ -275,8 +275,8 @@ em {
 body {
   background: #3a4249 url("img/bg.png") fixed;
   color: #fff;
-  font-size: 14px;
-  line-height: 21px; }
+  font-size: 15px;
+  line-height: 23px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #fff;
   font-weight: 600;
-  border-bottom: 1px solid #7f8386;
+  border-bottom: 1px solid #7F8386;
   text-decoration: none;
   position: relative;
   transition: border-color 120ms linear;
@@ -312,15 +312,15 @@ section#main {
         border: 0; }
     section#main aside nav ul {
       list-style: none;
-      margin-top: 21px; }
+      margin-top: 23px; }
       section#main aside nav ul.meta {
-        margin-top: 24px; }
+        margin-top: 26px; }
   section#main div#articles {
     margin-left: 180px;
     width: 480px;
     margin-top: 3px; }
     section#main div#articles article {
-      margin-bottom: 84px; }
+      margin-bottom: 86px; }
       section#main div#articles article h1 {
         font-size: 17px; }
         section#main div#articles article h1 a.permalink {
@@ -334,11 +334,11 @@ section#main {
           -moz-transition: color 120ms linear;
           -o-transition: color 120ms linear;
           -ms-transition: color 120ms linear;
-          line-height: 18px; }
+          line-height: 19px; }
           section#main div#articles article h1 a.permalink:hover {
             color: #fff; }
       section#main div#articles article div.content p {
-        margin-top: 21px; }
+        margin-top: 23px; }
       section#main div#articles article div.content pre {
         background: rgba(0, 0, 0, 0.3);
         margin: 15px 0 -6px;
@@ -362,7 +362,7 @@ section#main {
       section#main div#articles article div.content blockquote {
         padding: 7px 10px 5px;
         border-left: 4px solid rgba(0, 0, 0, 0.3);
-        font-size: 13px;
+        font-size: 14px;
         background: rgba(0, 0, 0, 0.3);
         margin: 15px 0 -6px;
         border-radius: 0 2px 2px 0;
@@ -382,9 +382,9 @@ section#main {
       section#main div#articles article div.content h1, section#main div#articles article div.content h2, section#main div#articles article div.content h3, section#main div#articles article div.content h4, section#main div#articles article div.content h5, section#main div#articles article div.content h6 {
         margin-top: 21px; }
       section#main div#articles article div.content h2 {
-        font-size: 16px; }
+        font-size: 17px; }
       section#main div#articles article div.content p.date {
-        font-size: 12px;
+        font-size: 13px;
         font-style: italic;
         color: #7F8386; }
 
